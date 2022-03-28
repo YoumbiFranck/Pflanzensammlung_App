@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="500dp"
+    android:padding="@dimen/default_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/trending1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/poppup_plant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poppup_plant_name"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView2"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toTopOf="@+id/cardView2"
+        style="@style/TitelTextStyle"
+        android:layout_marginLeft="@dimen/default_margin"/>
+
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="@dimen/default_margin"
+        android:src="@drawable/ic_close"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView2" />
+
+    <TextView
+        android:id="@+id/poppup_description_titel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poppup_description_titel"
+        app:layout_constraintStart_toStartOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        android:layout_marginTop="@dimen/default_margin"
+        style="@style/TitelTextStyle"/>
+
+    <TextView
+        android:id="@+id/poppup_description_subtitel"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poppup_description_subtitel"
+        app:layout_constraintStart_toStartOf="@+id/poppup_description_titel"
+        app:layout_constraintTop_toBottomOf="@+id/poppup_description_titel" />
+
+    <TextView
+        android:id="@+id/poppup_grow_titel"
+        style="@style/TitelTextStyle"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poppup_grow_titel"
+        app:layout_constraintStart_toStartOf="@+id/poppup_description_subtitel"
+        app:layout_constraintTop_toBottomOf="@+id/poppup_description_subtitel" />
+
+    <TextView
+        android:id="@+id/poppup_grow_subtitel"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poppup_grow_subtitel"
+        app:layout_constraintStart_toStartOf="@+id/poppup_grow_titel"
+        app:layout_constraintTop_toBottomOf="@+id/poppup_grow_titel" />
+
+    <TextView
+        android:id="@+id/poppup_water_titel"
+        style="@style/TitelTextStyle"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poppup_water_titel"
+        app:layout_constraintStart_toStartOf="@+id/poppup_grow_subtitel"
+        app:layout_constraintTop_toBottomOf="@+id/poppup_grow_subtitel" />
+
+    <TextView
+        android:id="@+id/poppup_water_subtitel"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poppup_water_subtitel"
+        app:layout_constraintStart_toStartOf="@+id/poppup_water_titel"
+        app:layout_constraintTop_toBottomOf="@+id/poppup_water_titel" />
+
+    <View
+        android:id="@+id/view_separation"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poppup_water_subtitel"/>
+
+    <ImageView
+        android:id="@+id/delete_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/ic_trash"
+        app:layout_constraintBottom_toBottomOf="@+id/view_separation"
+        app:layout_constraintEnd_toStartOf="@+id/view_separation"
+        app:layout_constraintTop_toTopOf="@+id/view_separation" />
+
+    <ImageView
+        android:id="@+id/star_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_unstar"
+        app:layout_constraintBottom_toBottomOf="@+id/delete_button"
+        app:layout_constraintStart_toStartOf="@+id/view_separation"
+        app:layout_constraintTop_toTopOf="@+id/view_separation" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026149141994",
+    "project_id": "pflanzensammlung",
+    "storage_bucket": "pflanzensammlung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026149141994:android:713afe4694a7bd89723693",
+        "android_client_info": {
+          "package_name": "de.franckyoumbi.pflanzensammlung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026149141994-t9u8v6k4u8j59o30to23j7dnnh64t4v6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAExE6VP2xeehfkZZ8srKMTvndb3dr7IeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026149141994-t9u8v6k4u8j59o30to23j7dnnh64t4v6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

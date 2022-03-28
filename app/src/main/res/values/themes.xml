@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Pflanzensammlung" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:spinnerItemStyle">@style/DefaultTextStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/DefaultTextStyle</item>
+
+
+    </style>
+
+    <!-- ce fichier xml va nous permettre de donner à notre application differents aspects-->
+
+    <!-- creer le composant pour le titre par defaut -->
+    <style name="DefaultTextStyle"> <!-- elle va regrouper plusieur proprietés pour
+    pouvoir modifier le design de notre appli -->
+
+        <item name="android:textColor">@color/lightGray</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+
+    </style>
+
+    <style name="SubtitelTextStyle" parent="DefaultTextStyle">
+        <!-- parent ici nous permet d'absorber les caracteristiques du dessus vu qu'elles sont
+         identiques, ce n'est que la couleur qui cahnge -->
+
+        <item name="android:textColor">@color/darkGray</item>
+
+    </style>
+
+    <style name="TitelTextStyle" parent="SubtitelTextStyle">
+        <!-- parent ici nous permet d'absorber les caracteristiques du dessus vu qu'elles sont
+         identiques, ce n'est que la couleur qui cahnge -->
+
+        <item name="android:textSize">24sp</item>
+
+    </style>
+
+    <!--creer un style pour la bottom naviagtion view -->
+    <style name="BottonNavigationStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/kanit</item>
+    </style>
+
+    <!-- personnaliser la bar de navigation -->
+    <style name="BottomnavigationTheme" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/kanit</item>
+    </style>
+
+
+
+</resources>

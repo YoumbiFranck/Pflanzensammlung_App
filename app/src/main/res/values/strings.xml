@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Pflanzensammlung</string>
+
+    <string name="bottom_home_item">Home</string>
+    <string name="bottom_collection_item">Sammlung</string>
+    <string name="bottom_add_plant_item">Einfügen</string>
+
+    <!--creation of the textual resources of our app-->
+
+    <!-- Homa page -->
+
+    <string name="home_page_titel">Entdecken</string>
+    <string name="home_page_last_palnte_section">Letzte Pflanzen</string>
+
+    <!--collection page -->
+
+    <string name="collection_page_titel">Meine Sammlung</string>
+
+    <!-- page to add plants -->
+
+    <string name="add_plant_titel">Eine Pflanze hinzufügen</string>
+    <string name="add_plant_page_upload_button">Bild laden</string>
+    <string name="add_plant_page_name_imput">@string/item_plant_name</string>
+    <string name="add_plant_page_description_imput">@string/item_plant_description</string>
+
+    <string-array name="add_plant_page_grow_spinner_input">
+        <item> Wachstum : Langsam</item>
+        <item> Wachstum : Normal</item>
+        <item> Wachstum : Schnell</item>
+    </string-array>
+
+    <string-array name="add_plant_page_water_spinner_input">
+        <item> Wasserverbrauch : Klein</item>
+        <item> Wasserverbrauch : Normal</item>
+        <item> Wasserverbrauch : Viel</item>
+    </string-array>
+
+    <string name="add_plant_page_confirm_button">Bestätigen</string>
+
+    <!--Details popup window -->
+    <string name="poppup_plant_name">Plant Name</string>
+    <string name="poppup_description_titel">Beschreibung</string>
+    <string name="poppup_description_subtitel">Kleine beschreibung</string>
+    <string name="poppup_grow_titel">Wachstum</string>
+    <string name="poppup_grow_subtitel">Langsam</string>
+    <string name="poppup_water_titel">Wasserverbrauch</string>
+    <string name="poppup_water_subtitel">Klein</string>
+
+
+
+    <!--custom plant -->
+    <string name="item_plant_name">Pflanzenname</string>
+    <string name="item_plant_description">Pflanzenbeschreibung</string>
+
+
+
+
+
+
+
+</resources>
